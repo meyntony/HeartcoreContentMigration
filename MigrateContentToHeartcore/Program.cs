@@ -13,7 +13,6 @@ Stopwatch totalTime = Stopwatch.StartNew();
 while (true)
 {
 	var response = client.GetAsync(ShowsAPI(page++)).Result;
-	var json = response.Content.ReadAsStringAsync().Result;
 	var shows = response.Content.ReadAsAsync<TVMazeShow[]>(formatters: [new JsonMediaTypeFormatter()]).Result;
 	try { response.EnsureSuccessStatusCode(); } catch { break; }
 	if (shows.Any())
