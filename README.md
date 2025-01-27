@@ -9,7 +9,6 @@
 - Create two folders **Elements** & **pages**
 - In the **Elements folder** create an **Element type** called **Genre**. Create two properties called **Index number & Title**. **Index number(Textstring, Mandatory)**, **Title(Textstring, Vary by culture)**.
 - In the **Pages** folder create three Document Types called: **LoginPage**, **TV Show** & **TV Shows**.
-- **LoginPage:** is empty (We might not need it)
 - **Tv Show:** needs 3 properties: **Genres(Blocklist using Element type: Genre)**, **Show Summary(RTE, Vary by culture)**, **Show Image(Image Media Picker)**.
 - **TV Shows:** is empty
 - The structure ↓
