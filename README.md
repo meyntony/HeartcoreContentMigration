@@ -13,8 +13,8 @@
 - **Tv Show:** needs 3 properties: **Genres(Blocklist using Element type: Genre)**, **Show Summary(RTE, Vary by culture)**, **Show Image(Image Media Picker)**.
 - **TV Shows:** is empty
 - The structure ↓
-- ![image](https://github.com/user-attachments/assets/200cbc39-9714-4744-8b09-bdbe22f8bc0f)
-4. Create a content node populated automatically using the Heartcore Client Library and the api.tvmaze.com
+- ![image](https://github.com/user-attachments/assets/b4d17bd8-ba88-40ea-8732-592355448cb4)
+4. Create a content node populated automatically using the [Heartcore Client Library](https://github.com/umbraco/Umbraco.Headless.Client.Net) and the [api.tvmaze.com](https://www.tvmaze.com/api)
 5.  If a show exists with an ID do the following ↓
 - Update Existing Property:
    - If the property already exists in Heartcore but is empty, check if TVMAZE has a value for it. If it does, update the property in Heartcore with the value from TVMAZE.
